@@ -20,6 +20,8 @@ Polygon
 3.style the polygon - different line types, width, color, label,fill, transparency
 
 Layers
+
+
 1.POC for a layer control as we have in Fieldgis for turn on and off th elayers
 2.POC for a map legend showing the different styles for the layers
 
