@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Point" />
+
+    <Button
+        android:id="@+id/btnLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Line" />
+
+    <Button
+        android:id="@+id/btnPolygon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Polygon" />
+
+    <Button
+        android:id="@+id/btnLayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layer" />
+
+    <Button
+        android:id="@+id/btnTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Tracking" />
+
+    <Button
+        android:id="@+id/btnNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation" />
+
+
+</LinearLayout>
